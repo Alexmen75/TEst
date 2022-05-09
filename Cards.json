@@ -1,0 +1,14 @@
+[
+  {
+    "Name": "test",
+    "Path": "test",
+    "Health": 10,
+    "Damage": 20
+  },
+  {
+    "Name": "test2",
+    "Path": "test2",
+    "Health": 20,
+    "Damage": 10
+  }
+]
