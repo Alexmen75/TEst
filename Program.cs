@@ -11,11 +11,11 @@ namespace TEst
     {
         var cards = new List<Card>()
         {
-          new Card("Handy", "handy",   10, 20),
-          new Card("Jock",  "jock",    20, 10),
-          new Card("RB-42", "rb-42",   20, 10),
-          new Card("JP98",  "jp98",    20, 10),
-          new Card("Lilya", "lilya" ,  20, 10)
+          new Card("Handy", "handy",   3, 6, 4),
+          new Card("Jock",  "jock",    6, 1, 1),
+          new Card("RB-42", "rb-42",   3, 3, 3),
+          new Card("JP98",  "jp98",    4, 4, 5),
+          new Card("Lilya", "lilya" ,  5, 2, 2)
         };
         WriteCard(cards);
         var result = ReadCard();
